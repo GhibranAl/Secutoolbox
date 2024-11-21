@@ -39,11 +39,13 @@ Ensure you have the following tools installed:
 
 ## Installation
 
-Clone the repository:
-```bash
-git clone https://github.com/marmuthandsome/SecuToolbox.git
-cd SecuToolbox
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GhibranAl/SecuToolBox-Integrated-Pentest-Tools-.git
+   cd SecuToolbox
+   ```
+
+2. Ensure all required tools are installed and available in your PATH.
 
 ## Usage
 
@@ -52,46 +54,55 @@ Run the main script to access the menu:
 python secutoolbox.py
 ```
 
-### Menu Options
+## Menu Options
 
 - **Linux & Windows**
-  - `1.` Run ffuf (subdomain)
-  - `2.` Run ffuf (directory)
-  - `3.` Run nmap (full)
-  - `4.` Run nmap (udp)
-  - `5.` Run whatweb
-  - `6.` Run wfuzz (subdomain)
-  - `7.` Run gobuster (directory)
-  - `8.` Run gobuster (dns)
-  - `9.` Run gobuster (vhost)
-  - `10.` Run dirsearch
-
+  - `1. Run ffuf (subdomain)`
+  - `2. Run ffuf (directory)`
+  - `3. Run nmap (full)`
+  - `4. Run nmap (udp)`
+  - `5. Run whatweb`
+  - `6. Run wfuzz (subdomain)`
+  - `7. Run gobuster (directory)`
+  - `8. Run gobuster (dns)`
+  - `9. Run gobuster (vhost)`
+  - `10. Run dirsearch`
 - **Active Directory**
-  - `11.` Run smbclient
-  - `12.` Run smbmap
-  - `13.` Run evilwinrm (password)
-  - `14.` Run evilwinrm (hash)
-  - `15.` Run crackmapexec smb (password)
-  - `16.` Run crackmapexec smb (hash)
-  - `17.` Run crackmapexec evilwinrm (password)
-  - `18.` Run crackmapexec evilwinrm (hash)
-  - `19.` Run rpcclient
-  - `20.` Run enum4linux
-  - `21.` Run snmpwalk
-  - `22.` Run snmpwalk extend
-  - `23.` Run xfreerdp
-
+  - `11. Run smbclient`
+  - `12. Run smbmap`
+  - `13. Run evilwinrm (password)`
+  - `14. Run evilwinrm (hash)`
+  - `15. Run crackmapexec smb (password)`
+  - `16. Run crackmapexec smb (hash)`
+  - `17. Run crackmapexec evilwinrm (password)`
+  - `18. Run crackmapexec evilwinrm (hash)`
+  - `19. Run rpcclient`
+  - `20. Run enum4linux`
+  - `21. Run snmpwalk`
+  - `22. Run snmpwalk extend`
+  - `23. Run xfreerdp`
 - **Other**
-  - `99.` Addhosts
-  - `0.` Exit
+  - `99. Addhosts`
+  - `0. Exit`
 
-### Example Usage
+## Example Usage
 
 To run an Nmap full scan:
+1. Select option `3` from the menu.
+2. Enter the target IP or domain.
 
-Select option 3 from the menu.
-Enter the target IP or domain.
 To add a host entry:
+1. Select option `99` from the menu.
+2. Enter the IP and host.
 
-Select option 99 from the menu.
-Enter the IP and host.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue for any bugs or feature requests.
+
+## Contact
+
+For any inquiries or issues, please open an issue on GitHub.
